@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "WillowLibraryTestCase",
+	"category" : "Willow-SpinKit-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpinKitMetadataLibraryTest",
+	"type" : "normal"
+}

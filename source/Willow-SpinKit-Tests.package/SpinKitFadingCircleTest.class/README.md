@@ -1,0 +1,1 @@
+A SpinKitFadingCircleTest is a test class for testing the behavior of SpinKitFadingCircle
