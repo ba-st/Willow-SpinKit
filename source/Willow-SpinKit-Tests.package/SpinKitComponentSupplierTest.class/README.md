@@ -1,0 +1,1 @@
+I'm a test for the integration between the component supplier and the spin kit views
