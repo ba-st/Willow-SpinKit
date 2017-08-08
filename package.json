@@ -1,0 +1,19 @@
+{
+  "name": "willow-spinkit",
+  "version": "1.0.0",
+  "author": "Buenos Aires Smalltalk contributors",
+  "license": "MIT",
+  "dependencies": {
+    "spinkit": "1.2.5"
+  }
+  ,
+  "description": "SpinKit and Willow integration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ba-st/willow-SpinKit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ba-st/Willow-SpinKit/issues"
+  },
+  "homepage": "https://github.com/ba-st/Willow-SpinKit"
+}
