@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "GabrielOmarCotelli 8/8/2017 16:52",
-	"super" : "WAPresenter",
+	"super" : "WAPainter",
 	"category" : "Willow-SpinKit",
 	"classinstvars" : [ ],
 	"pools" : [ ],
