@@ -2,9 +2,9 @@ initialization
 setUpDependencies: spec
 
 	spec
-		baseline: 'Willow'
+		baseline: 'Boardwalk'
 			with: [ spec
-				repository: 'github://ba-st/Willow:v7.0.0/source';
+				repository: 'github://ba-st/Boardwalk:v1.0.0/source';
 				loads: #('Deployment') ];
-		project: 'Willow-Development' copyFrom: 'Willow' with: [ spec loads: #('Development') ];
-		import: 'Willow'
+		project: 'Boardwalk-Development' copyFrom: 'Boardwalk' with: [ spec loads: #('Development') ];
+		import: 'Boardwalk'
