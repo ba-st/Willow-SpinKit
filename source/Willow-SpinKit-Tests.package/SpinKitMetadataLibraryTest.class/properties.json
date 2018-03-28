@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "WillowLibraryTestCase",
+	"super" : "WARenderingTest",
 	"category" : "Willow-SpinKit-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
