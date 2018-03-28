@@ -1,1 +1,1 @@
-Metacello Baseline definition for Willow-Bootstrap
+Metacello Baseline definition for Willow-SpinKit
