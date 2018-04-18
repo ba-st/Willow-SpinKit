@@ -5,7 +5,7 @@ Metacello Baseline definition for Willow-SpinKit
 Class {
 	#name : #BaselineOfWillowSpinKit,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfWillowSpinKit'
+	#category : #BaselineOfWillowSpinKit
 }
 
 { #category : #baselines }
@@ -31,7 +31,7 @@ BaselineOfWillowSpinKit >> setUpDependencies: spec [
 	spec
 		baseline: 'Willow'
 			with: [ spec
-				repository: 'github://ba-st/Willow:v7.0.0/source';
+				repository: 'github://ba-st/Willow:v8/source';
 				loads: #('Deployment') ];
 		project: 'Willow-Development' copyFrom: 'Willow' with: [ spec loads: #('Development') ];
 		import: 'Willow'

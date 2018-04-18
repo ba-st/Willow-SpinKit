@@ -21,8 +21,8 @@ SpinKitMetadataLibraryTest >> testDeployFiles [
 SpinKitMetadataLibraryTest >> testForDevelopmentAndDeployment [
 
 	self
-		assert: SpinKitMetadataLibrary forDeployment equals: SpinKitMetadataLibrary default;
-		assert: SpinKitMetadataLibrary forDevelopment equals: SpinKitMetadataLibrary default
+		assert: SpinKitMetadataLibrary forDeployment equals: SpinKitMetadataLibrary;
+		assert: SpinKitMetadataLibrary forDevelopment equals: SpinKitMetadataLibrary
 ]
 
 { #category : #tests }
