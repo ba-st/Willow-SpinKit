@@ -1,1 +1,0 @@
-I'n an SpinKit animation

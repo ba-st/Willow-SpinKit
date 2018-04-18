@@ -1,1 +1,0 @@
-I'm a library serving files from the official CDN

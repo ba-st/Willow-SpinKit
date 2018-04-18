@@ -1,4 +1,0 @@
-Accessing
-wave
-
-	^ 'sk-wave'

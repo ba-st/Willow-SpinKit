@@ -1,1 +1,0 @@
-I provide SpinKit styles

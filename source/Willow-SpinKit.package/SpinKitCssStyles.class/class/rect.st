@@ -1,4 +1,0 @@
-Accessing
-rect
-
-	^ 'sk-rect'
