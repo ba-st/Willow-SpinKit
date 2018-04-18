@@ -10,25 +10,13 @@ Class {
 { #category : #Accessing }
 SpinKitMetadataLibrary class >> forDeployment [
 
-	^ self default
+	^ self
 ]
 
 { #category : #Accessing }
 SpinKitMetadataLibrary class >> forDevelopment [
 
-	^ self default
-]
-
-{ #category : #Testing }
-SpinKitMetadataLibrary class >> isForDeployment [
-
-	^ true
-]
-
-{ #category : #Testing }
-SpinKitMetadataLibrary class >> isForDevelopment [
-
-	^ true
+	^ self
 ]
 
 { #category : #Accessing }
