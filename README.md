@@ -1,5 +1,6 @@
 # Willow-SpinKit
 
+![GitHub release](https://img.shields.io/github/release/ba-st/Willow-SpinKit.svg)
 [![Build Status](https://travis-ci.org/ba-st/Willow-SpinKit.svg?branch=master)](https://travis-ci.org/ba-st/Willow-SpinKit)
 [![Coverage Status](https://coveralls.io/repos/github/ba-st/Willow-SpinKit/badge.svg?branch=master)](https://coveralls.io/github/ba-st/Willow-SpinKit?branch=master)
 [![Javascript Dependency Status](https://david-dm.org/ba-st/Willow-SpinKit.svg)](https://david-dm.org/ba-st/Willow-SpinKit)
@@ -20,7 +21,7 @@ The documentation is licensed under a [Creative Commons Attribution-ShareAlike 4
 
 ### Get started!
 
-#### Pharo 5/6
+#### Pharo 6/7
 
 Open a Playground and evaluate:
 
