@@ -1,4 +1,0 @@
-Accessing
-child
-
-	^ 'sk-child'

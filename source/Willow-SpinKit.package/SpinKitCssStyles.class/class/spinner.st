@@ -1,4 +1,0 @@
-Accessing
-spinner
-
-	^ 'sk-spinner'

@@ -1,4 +1,0 @@
-Accessing
-circle
-
-	^ 'sk-circle'

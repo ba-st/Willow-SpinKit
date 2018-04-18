@@ -1,4 +1,0 @@
-Accessing
-cube
-
-	^ 'sk-cube'
