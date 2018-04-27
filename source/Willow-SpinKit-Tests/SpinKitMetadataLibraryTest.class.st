@@ -11,10 +11,9 @@ Class {
 SpinKitMetadataLibraryTest >> testDeployFiles [
 
 	self
-		useFileTestingPlatformDuring: [ SpinKitMetadataLibrary default deployFiles.
-			self
-				assert: GRPlatform current createdFolders equals: #('spinkit-1.2.5');
-				assert: GRPlatform current createdFiles equals: #('spinkit-1.2.5/spinkit.css') ]
+		assertFileDeploymentOf: SpinKitMetadataLibrary default
+		createsAsFolders: #('spinkit-1.2.5')
+		andFileContentsMatching: {('spinkit-1.2.5/spinkit.css' -> '931a9887d0c149460a9de981a9fa7b06204b775a')}
 ]
 
 { #category : #tests }
