@@ -31,7 +31,7 @@ BaselineOfWillowSpinKit >> setUpDependencies: spec [
 	spec
 		baseline: 'Willow'
 			with: [ spec
-				repository: 'github://ba-st/Willow:v10/source';
+				repository: 'github://ba-st/Willow:v11/source';
 				loads: #('Deployment') ];
 		project: 'Willow-Development' copyFrom: 'Willow' with: [ spec loads: #('Development') ];
 		import: 'Willow'
