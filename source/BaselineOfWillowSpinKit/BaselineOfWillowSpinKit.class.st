@@ -18,10 +18,6 @@ BaselineOfWillowSpinKit >> baseline: spec [
 				setUpDependencies: spec;
 				baselineWillowSpinKit: spec.
 			spec
-				package: 'Willow-SpinKit' with: [ spec requires: #('Willow') ];
-				package: 'Willow-SpinKit-Tests'
-					with: [ spec requires: #('Willow-SpinKit' 'Willow-Development') ].
-			spec
 				group: 'CI' with: 'Tests';
 				group: 'Dependent-SUnit-Extensions' with: 'Willow-SUnit';
 				group: 'Tools' with: 'Willow-Tools';
