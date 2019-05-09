@@ -3,7 +3,7 @@ A SpinKitMetadataLibraryTest is a test class for testing the behavior of SpinKit
 "
 Class {
 	#name : #SpinKitMetadataLibraryTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

@@ -3,7 +3,7 @@ I'm a test for the integration between the component supplier and the spin kit v
 "
 Class {
 	#name : #SpinKitComponentSupplierTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

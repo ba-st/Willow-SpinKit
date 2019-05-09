@@ -3,7 +3,7 @@ A SpinKitDoubleBounceTest is a test class for testing the behavior of SpinKitDou
 "
 Class {
 	#name : #SpinKitDoubleBounceTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

@@ -3,7 +3,7 @@ A SpinKitPulseTest is a test class for testing the behavior of SpinKitPulse
 "
 Class {
 	#name : #SpinKitPulseTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

@@ -3,7 +3,7 @@ A SpinKitCubeGridTest is a test class for testing the behavior of SpinKitCubeGri
 "
 Class {
 	#name : #SpinKitCubeGridTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

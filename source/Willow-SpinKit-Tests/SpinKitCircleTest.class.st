@@ -3,7 +3,7 @@ A SpinKitCircleTest is a test class for testing the behavior of SpinKitCircle
 "
 Class {
 	#name : #SpinKitCircleTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

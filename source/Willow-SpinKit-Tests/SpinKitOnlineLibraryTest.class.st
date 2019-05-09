@@ -3,7 +3,7 @@ A SpinKitOnlineLibraryTest is a test class for testing the behavior of SpinKitOn
 "
 Class {
 	#name : #SpinKitOnlineLibraryTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 
