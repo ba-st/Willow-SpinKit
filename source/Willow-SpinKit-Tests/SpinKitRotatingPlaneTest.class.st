@@ -3,7 +3,7 @@ A SpinKitRotatingPlaneTest is a test class for testing the behavior of SpinKitRo
 "
 Class {
 	#name : #SpinKitRotatingPlaneTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

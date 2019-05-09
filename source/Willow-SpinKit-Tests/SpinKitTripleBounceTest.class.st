@@ -3,7 +3,7 @@ A SpinKitTripleBounceTest is a test class for testing the behavior of SpinKitTri
 "
 Class {
 	#name : #SpinKitTripleBounceTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

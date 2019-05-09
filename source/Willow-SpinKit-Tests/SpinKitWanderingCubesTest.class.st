@@ -3,7 +3,7 @@ A SpinKitWanderingCubesTest is a test class for testing the behavior of SpinKitW
 "
 Class {
 	#name : #SpinKitWanderingCubesTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

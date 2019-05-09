@@ -3,7 +3,7 @@ A SpinKitWaveTest is a test class for testing the behavior of SpinKitWave
 "
 Class {
 	#name : #SpinKitWaveTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

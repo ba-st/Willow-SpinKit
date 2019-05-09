@@ -3,7 +3,7 @@ A SpinKitFoldingCubeTest is a test class for testing the behavior of SpinKitFold
 "
 Class {
 	#name : #SpinKitFoldingCubeTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

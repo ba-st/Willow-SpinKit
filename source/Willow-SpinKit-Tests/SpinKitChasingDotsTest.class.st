@@ -3,7 +3,7 @@ A SpinKitChasingDotsTest is a test class for testing the behavior of SpinKitChas
 "
 Class {
 	#name : #SpinKitChasingDotsTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 

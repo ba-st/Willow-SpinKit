@@ -3,7 +3,7 @@ A SpinKitFadingCircleTest is a test class for testing the behavior of SpinKitFad
 "
 Class {
 	#name : #SpinKitFadingCircleTest,
-	#superclass : #WARenderingTest,
+	#superclass : #BWRenderingTest,
 	#category : 'Willow-SpinKit-Tests'
 }
 
