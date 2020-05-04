@@ -13,9 +13,12 @@
 </p>
 
 [![GitHub release](https://img.shields.io/github/release/ba-st/Willow-SpinKit.svg)](https://github.com/ba-st/Willow-SpinKit/releases/latest)
-[![Build Status](https://travis-ci.org/ba-st/Willow-SpinKit.svg?branch=release-candidate)](https://travis-ci.com/ba-st/Willow-SpinKit)
-[![Coverage Status](https://coveralls.io/repos/github/ba-st/Willow-SpinKit/badge.svg?branch=release-candidate)](https://coveralls.io/github/ba-st/Willow-SpinKit?branch=release-candidate)
+[![Build Status](https://github.com/ba-st/Willow-SpinKit/workflows/Build/badge.svg?branch=release-candidate)](https://github.com/ba-st/Willow-SpinKit/actions?query=workflow%3ABuild)
+[![Coverage Status](https://codecov.io/github/ba-st/Willow-SpinKit/coverage.svg?branch=release-candidate)](https://codecov.io/gh/ba-st/Willow-SpinKit/branch/release-candidate)
 [![Javascript Dependency Status](https://david-dm.org/ba-st/Willow-SpinKit.svg)](https://david-dm.org/ba-st/Willow-SpinKit)
+[![Pharo 6.1](https://img.shields.io/badge/Pharo-6.1-informational)](https://pharo.org)
+[![Pharo 7.0](https://img.shields.io/badge/Pharo-7.0-informational)](https://pharo.org)
+[![Pharo 8.0](https://img.shields.io/badge/Pharo-8.0-informational)](https://pharo.org)
 
 The project goal is to offer a set of loading notifications for your web applications when developing with Willow.
 
