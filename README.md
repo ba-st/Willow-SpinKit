@@ -28,9 +28,16 @@ The project goal is to offer a set of loading notifications for your web applica
 
 ## Quick Start
 
-- Download the latest [Pharo 32](https://get.pharo.org/) or [64 bits VM](https://get.pharo.org/64/).
-- Download a ready to use image from the [release page](https://github.com/ba-st/Willow-SpinKit/releases/latest)
-- Explore the [documentation](docs/)
+- Download the latest [Pharo 32](https://get.pharo.org/) or [64 bits](https://get.pharo.org/64/) version.
+- Load the example group with:
+```smalltalk
+Metacello new
+	baseline: 'WillowSpinKit';
+	repository: 'github://ba-st/Willow-SpinKit:release-candidate/source';
+	load: 'Examples'.
+```
+- Start the preview with: `WillowSpinKitPlayground start`
+- Go to `http://localhost:8080/willow-spinkit-examples`
 
 ## Installation
 
