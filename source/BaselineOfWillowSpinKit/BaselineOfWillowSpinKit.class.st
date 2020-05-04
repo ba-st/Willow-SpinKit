@@ -48,5 +48,7 @@ BaselineOfWillowSpinKit >> setUpPackages: spec [
 		package: 'Willow-SpinKit' with: [ spec requires: #('Willow-Deployment') ];
 		group: 'Deployment' with: #('Willow-SpinKit');
 		package: 'Willow-SpinKit-Tests' with: [ spec requires: #('Willow-SpinKit' 'Willow-SUnit') ];
-		group: 'Tests' with: 'Willow-SpinKit-Tests'
+		group: 'Tests' with: 'Willow-SpinKit-Tests';
+		package: 'Willow-SpinKit-Examples' with: [ spec requires: 'Willow-SpinKit' ];
+		group: 'Examples' with: 'Willow-SpinKit-Examples'
 ]
