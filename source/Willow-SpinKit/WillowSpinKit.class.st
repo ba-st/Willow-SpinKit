@@ -26,7 +26,8 @@ WillowSpinKit class >> initialize [
 		bind: #pulse to: 'sk-pulse';
 		bind: #flow to: 'sk-flow';
 		bind: #flowDot to: 'sk-flow-dot';
-		bind: #swing to: 'sk-swing-dot';
+		bind: #swing to: 'sk-swing';
+		bind: #swingDot to: 'sk-swing-dot';
 		bind: #circle to: 'sk-circle';
 		bind: #circleDot to: 'sk-circle-dot';
 		bind: #circleFade to: 'sk-circle-fade';

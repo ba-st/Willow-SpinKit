@@ -109,6 +109,12 @@ ComponentClassificationCommandBuilder >> swing [
 ]
 
 { #category : #'*Willow-SpinKit' }
+ComponentClassificationCommandBuilder >> swingDot [
+
+	^ self commandStyledWith: #swingDot
+]
+
+{ #category : #'*Willow-SpinKit' }
 ComponentClassificationCommandBuilder >> wander [
 
 	^ self commandStyledWith: #wander
