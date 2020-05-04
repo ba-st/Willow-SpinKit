@@ -4,7 +4,7 @@ A SpinKitCircleTest is a test class for testing the behavior of SpinKitCircle
 Class {
 	#name : #SpinKitCircleTest,
 	#superclass : #BWRenderingTest,
-	#category : 'Willow-SpinKit-Tests'
+	#category : #'Willow-SpinKit-Tests'
 }
 
 { #category : #'tests-rendering' }
@@ -17,5 +17,5 @@ SpinKitCircleTest >> testRenderContentOn [
 	self
 		assert: html
 		equals:
-			'<div class="sk-circle"><div class="sk-child sk-circle1"></div><div class="sk-child sk-circle2"></div><div class="sk-child sk-circle3"></div><div class="sk-child sk-circle4"></div><div class="sk-child sk-circle5"></div><div class="sk-child sk-circle6"></div><div class="sk-child sk-circle7"></div><div class="sk-child sk-circle8"></div><div class="sk-child sk-circle9"></div><div class="sk-child sk-circle10"></div><div class="sk-child sk-circle11"></div><div class="sk-child sk-circle12"></div></div>'
+			'<div class="sk-circle"><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div></div>'
 ]

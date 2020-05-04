@@ -4,11 +4,11 @@ SpinKit animation
 Class {
 	#name : #SpinKitPulse,
 	#superclass : #WAPainter,
-	#category : 'Willow-SpinKit'
+	#category : #'Willow-SpinKit'
 }
 
 { #category : #rendering }
 SpinKitPulse >> renderContentOn: aCanvas [
 
-	aCanvas div class: SpinKitCssStyles spinnerPulse
+	aCanvas div apply: [ :div | div addClass spinKit pulse ]
 ]
