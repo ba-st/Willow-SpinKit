@@ -40,6 +40,7 @@ baseline: spec
 ## Provided groups
 
 - `Deployment` will load all the packages needed in a deployed application
+- `Examples` will load the packages needed for the live preview
 - `Tests` will load the test cases
 - `Dependent-SUnit-Extensions` will load the extensions to the SUnit framework
 - `Tools` will load the extensions to the SUnit framework and development tools (inspector and spotter extensions)

@@ -16,23 +16,13 @@ BaselineOfWillowSpinKit >> baseline: spec [
 		for: #pharo
 		do: [ self
 				setUpDependencies: spec;
-				baselineWillowSpinKit: spec.
+				setUpPackages: spec.
 			spec
 				group: 'CI' with: 'Tests';
 				group: 'Dependent-SUnit-Extensions' with: 'Willow-SUnit';
 				group: 'Tools' with: 'Willow-Tools';
 				group: 'Development' with: #('Tests' 'Tools')
 			]
-]
-
-{ #category : #baselines }
-BaselineOfWillowSpinKit >> baselineWillowSpinKit: spec [
-
-	spec
-		package: 'Willow-SpinKit' with: [ spec requires: #('Willow-Deployment') ];
-		group: 'Deployment' with: #('Willow-SpinKit');
-		package: 'Willow-SpinKit-Tests' with: [ spec requires: #('Willow-SpinKit' 'Willow-SUnit') ];
-		group: 'Tests' with: 'Willow-SpinKit-Tests'
 ]
 
 { #category : #accessing }
@@ -45,8 +35,20 @@ BaselineOfWillowSpinKit >> projectClass [
 BaselineOfWillowSpinKit >> setUpDependencies: spec [
 
 	spec
-		baseline: 'Willow' with: [ spec repository: 'github://ba-st/Willow:v12/source' ];
+		baseline: 'Willow' with: [ spec repository: 'github://ba-st/Willow:v13/source' ];
 		project: 'Willow-Deployment' copyFrom: 'Willow' with: [ spec loads: 'Deployment' ];
 		project: 'Willow-SUnit' copyFrom: 'Willow' with: [ spec loads: 'Dependent-SUnit-Extensions' ];
 		project: 'Willow-Tools' copyFrom: 'Willow' with: [ spec loads: 'Tools' ]
+]
+
+{ #category : #baselines }
+BaselineOfWillowSpinKit >> setUpPackages: spec [
+
+	spec
+		package: 'Willow-SpinKit' with: [ spec requires: #('Willow-Deployment') ];
+		group: 'Deployment' with: #('Willow-SpinKit');
+		package: 'Willow-SpinKit-Tests' with: [ spec requires: #('Willow-SpinKit' 'Willow-SUnit') ];
+		group: 'Tests' with: 'Willow-SpinKit-Tests';
+		package: 'Willow-SpinKit-Examples' with: [ spec requires: 'Willow-SpinKit' ];
+		group: 'Examples' with: 'Willow-SpinKit-Examples'
 ]
