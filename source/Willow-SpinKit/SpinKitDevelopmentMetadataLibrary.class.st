@@ -15,11 +15,12 @@ SpinKitDevelopmentMetadataLibrary >> selectorsToInclude [
 
 { #category : #'uploaded metadata' }
 SpinKitDevelopmentMetadataLibrary >> spinkitCss [
+
 	^ WAFileLibraryResource
 		filepath: 'spinkit.css'
-		mimeType: (WAMimeType main: 'text' sub: 'css')
-		cacheDuration: (Duration days: 0 hours: 0 minutes: 30 seconds: 0)
-		contents: (GRDelayedSend receiver: self selector: #spinkitCssContent)
+		mimeType: ( WAMimeType main: 'text' sub: 'css' )
+		cacheDuration: self class defaultCacheDuration
+		contents: ( GRDelayedSend receiver: self selector: #spinkitCssContent )
 ]
 
 { #category : #uploaded }
