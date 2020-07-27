@@ -10,7 +10,7 @@ Class {
 { #category : #Updating }
 SpinKitOnlineLibrary >> updateRoot: aRoot [
 
-	aRoot javascript
+	aRoot stylesheet
 		url: ( 'https://cdnjs.cloudflare.com/ajax/libs/spinkit/<1s>/spinkit.min.css' expandMacrosWith: self version );
 		anonymousSubResourceIntegrity: 'sha512-kRYkjiYH/VXxoiaDK2oGNMKIi8VQVfie1lkYGX3kmfzWNR2kfaF5ze0885W3/eE6lIiURBsZA91M/WNvCajHMw=='
 ]
