@@ -3,14 +3,14 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'WillowSpinKit',
       #directory : 'source',
-      #load : [ 'CI' ],
+      #load : [ 'Tests' ],
       #platforms : [  #pharo ]
     }
   ],
   #testing : {
     #coverage : {
-       #packages : [ 'Willow-SpinKit*' ],
+      #packages : [ 'Willow-SpinKit*' ],
       #format: #lcov
     }
-  }
+  }   
 }
