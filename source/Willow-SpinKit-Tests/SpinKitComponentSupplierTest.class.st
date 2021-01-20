@@ -7,14 +7,30 @@ Class {
 	#category : #'Willow-SpinKit-Tests'
 }
 
+{ #category : #accessing }
+SpinKitComponentSupplierTest >> componentSupplier [
+
+	^ Html5ComponentSupplier new
+]
+
+{ #category : #accessing }
+SpinKitComponentSupplierTest >> createHandlers [
+
+	^ Array with: self
+]
+
+{ #category : #accessing }
+SpinKitComponentSupplierTest >> isSession [
+
+	^ true
+]
+
 { #category : #tests }
 SpinKitComponentSupplierTest >> testUsingSpinKitAsThrobber [
 
-	| supplier delayedView html |
+	| delayedView html |
 
-	supplier := Html5ComponentSupplier new.
-
-	delayedView := supplier
+	delayedView := self componentSupplier
 		delayedViewShowing: SpinKitCircle new
 		whileEvaluating: [  ]
 		thenRendering: 'Done!'.
@@ -24,5 +40,5 @@ SpinKitComponentSupplierTest >> testUsingSpinKitAsThrobber [
 	self
 		assert: html
 		equals:
-			'<div id="Delayed-id1"><div class="sk-circle"><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div></div></div><script type="text/javascript">Willow.callServer({"url":"/","data":"2"});</script>'
+			'<div id="container-id1"><div class="sk-circle"><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div><div class="sk-circle-dot"></div></div></div><script type="text/javascript">Willow.callServer({"url":"/","data":"2"});</script>'
 ]
