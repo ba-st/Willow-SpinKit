@@ -1,5 +1,5 @@
 "
-I'm a really simple Willow application intented to show examples of Spin Kit
+I'm a really simple Willow application intended to show examples of Spin Kit
 "
 Class {
 	#name : #WillowSpinKitPlayground,

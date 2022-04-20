@@ -1,5 +1,5 @@
 "
-I'm a WALibary serving the files in source form
+I'm a WALibrary serving the files in source form
 "
 Class {
 	#name : #SpinKitDevelopmentMetadataLibrary,
