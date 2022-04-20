@@ -24,7 +24,7 @@ WillowSpinKitPlayground class >> start [
 
 	self registerAsDevelopmentApplication.
 	( ZnZincServerAdaptor port: 8080 )
-		codec: GRPharoUtf8Codec new;
+		codec: ( GRCodec forEncoding: 'utf-8' );
 		start
 ]
 
