@@ -2,12 +2,13 @@
 A SpinKitCircleTest is a test class for testing the behavior of SpinKitCircle
 "
 Class {
-	#name : #SpinKitCircleTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitCircleTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitCircleTest >> testRenderContentOn [
 
 	| html |

@@ -2,12 +2,13 @@
 A SpinKitSwingTest is a test class for testing the behavior of SpinKitSwing
 "
 Class {
-	#name : #SpinKitSwingTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitSwingTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #test }
+{ #category : 'test' }
 SpinKitSwingTest >> testRenderContentOn [
 
 	| html |

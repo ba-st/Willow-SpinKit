@@ -2,12 +2,13 @@
 A SpinKitCircleFadeTest is a test class for testing the behavior of SpinKitCircleFade
 "
 Class {
-	#name : #SpinKitCircleFadeTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitCircleFadeTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitCircleFadeTest >> testRenderContentOn [
 
 	| html |

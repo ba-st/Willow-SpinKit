@@ -2,12 +2,13 @@
 A SpinKitDeploymentMetadataLibraryTest is a test class for testing the behavior of SpinKitDeploymentMetadataLibrary
 "
 Class {
-	#name : #SpinKitDeploymentMetadataLibraryTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitDeploymentMetadataLibraryTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 SpinKitDeploymentMetadataLibraryTest >> testDeployFiles [
 
 	self
@@ -16,7 +17,7 @@ SpinKitDeploymentMetadataLibraryTest >> testDeployFiles [
 		andFileContentsMatching: {( 'spinkit-2.0.1/spinkit.min.css' -> '79cc958b1e134b026f55e651f494e6703920f3b7' )}
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 SpinKitDeploymentMetadataLibraryTest >> testUpdateRoot [
 
 	| html |

@@ -2,12 +2,13 @@
 A SpinKitPulseTest is a test class for testing the behavior of SpinKitPulse
 "
 Class {
-	#name : #SpinKitPulseTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitPulseTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitPulseTest >> testRenderContentOn [
 
 	| html |

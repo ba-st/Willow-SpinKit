@@ -2,12 +2,13 @@
 A SpinKitPlaneTest is a test class for testing the behavior of SpinKitPlane
 "
 Class {
-	#name : #SpinKitPlaneTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitPlaneTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitPlaneTest >> testRenderContentOn [
 
 	| html |

@@ -2,12 +2,13 @@
 A SpinKitOnlineLibraryTest is a test class for testing the behavior of SpinKitOnlineLibrary
 "
 Class {
-	#name : #SpinKitOnlineLibraryTest,
-	#superclass : #TestCase,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitOnlineLibraryTest',
+	#superclass : 'TestCase',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 SpinKitOnlineLibraryTest >> testUpdateRoot [
 
 	| html |

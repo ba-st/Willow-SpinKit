@@ -2,12 +2,13 @@
 A SpinKitFlowTest is a test class for testing the behavior of SpinKitFlow
 "
 Class {
-	#name : #SpinKitFlowTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitFlowTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitFlowTest >> testRenderContentOn [
 
 	| html |

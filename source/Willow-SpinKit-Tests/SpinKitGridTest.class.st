@@ -2,12 +2,13 @@
 A SpinKitGridTest is a test class for testing the behavior of SpinKitGrid
 "
 Class {
-	#name : #SpinKitGridTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitGridTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitGridTest >> testRenderContentOn [
 
 	| html |
