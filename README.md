@@ -11,8 +11,8 @@ Integration between [Willow](https://github.com/ba-st/Willow) and [SpinKit](http
 
 [![Pharo 10](https://img.shields.io/badge/Pharo-10-informational)](https://pharo.org)
 [![Pharo 11](https://img.shields.io/badge/Pharo-11-informational)](https://pharo.org)
-[![Pharo 12](https://img.shields.io/badge/Pharo-10-informational)](https://pharo.org)
-[![Pharo 13](https://img.shields.io/badge/Pharo-11-informational)](https://pharo.org)
+[![Pharo 12](https://img.shields.io/badge/Pharo-12-informational)](https://pharo.org)
+[![Pharo 13](https://img.shields.io/badge/Pharo-13-informational)](https://pharo.org)
 
 The project goal is to offer a set of loading notifications for your web
 applications when developing with Willow.
