@@ -1,1 +1,1 @@
-Package { #name : #BaselineOfWillowSpinKit }
+Package { #name : 'BaselineOfWillowSpinKit' }

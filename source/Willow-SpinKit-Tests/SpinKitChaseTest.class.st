@@ -2,12 +2,13 @@
 A SpinKitChaseTest is a test class for testing the behavior of SpinKitChase
 "
 Class {
-	#name : #SpinKitChaseTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitChaseTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitChaseTest >> testRenderContentOn [
 
 	| html |

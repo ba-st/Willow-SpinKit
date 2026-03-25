@@ -2,12 +2,13 @@
 A SpinKitBounceTest is a test class for testing the behavior of SpinKitBounce
 "
 Class {
-	#name : #SpinKitBounceTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitBounceTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitBounceTest >> testRenderContentOn [
 
 	| html |

@@ -2,12 +2,13 @@
 A SpinKitWaveTest is a test class for testing the behavior of SpinKitWave
 "
 Class {
-	#name : #SpinKitWaveTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitWaveTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitWaveTest >> testRenderContentOn [
 
 	| html |

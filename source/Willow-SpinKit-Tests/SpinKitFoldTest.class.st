@@ -2,12 +2,13 @@
 A SpinKitFoldTest is a test class for testing the behavior of SpinKitFold
 "
 Class {
-	#name : #SpinKitFoldTest,
-	#superclass : #BWRenderingTest,
-	#category : #'Willow-SpinKit-Tests'
+	#name : 'SpinKitFoldTest',
+	#superclass : 'BWRenderingTest',
+	#category : 'Willow-SpinKit-Tests',
+	#package : 'Willow-SpinKit-Tests'
 }
 
-{ #category : #'tests-rendering' }
+{ #category : 'tests-rendering' }
 SpinKitFoldTest >> testRenderContentOn [
 
 	| html |
